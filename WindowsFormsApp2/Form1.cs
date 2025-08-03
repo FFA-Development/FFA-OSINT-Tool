@@ -80,10 +80,10 @@ namespace WindowsFormsApp2
                     {
                         try
                         {
-                            label8.Invoke(new Action(() =>
-                            {
-                                label8.Text = $"{currentPort}";
-                            }));
+                            //label8.Invoke(new Action(() =>
+                            //{
+                            //    label8.Text = $"{currentPort}";
+                            //}));
                             using (var client = new TcpClient())
                             {
                                 var connectTask = client.ConnectAsync(textBox1.Text, currentPort);
