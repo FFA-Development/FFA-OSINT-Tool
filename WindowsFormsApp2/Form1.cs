@@ -51,6 +51,12 @@ namespace WindowsFormsApp2
         public async void multi_threaded_scan()
         {
             this.Logs.Text += $"Started scanning {textBox1.Text}....\n";
+
+            /* 
+            * Old slow method ( DO NOT REMOVE YET )
+            * 
+            */ 
+
             //for (int i = 0; i < 65535; i++)
             //{
             //    label8.Text = $"{i}";
