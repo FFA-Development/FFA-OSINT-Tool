@@ -22,6 +22,9 @@ namespace WindowsFormsApp2
         public RichTextBox Logs;
         public bool Scanning;
         public bool pinging;
+        public int TogMove;
+        public int MValX;
+        public int MValY;
         public Form1()
         {
             InitializeComponent();
@@ -205,6 +208,25 @@ namespace WindowsFormsApp2
                 this.pinging = false;
                 button3.Text = "TCP Ping";
             }
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.TogMove = 1;
+            this.MValX = e.X;
+            this.MValY = e.Y;
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            bool flag = this.TogMove == 1;
+            if (flag)
+                base.SetDesktopLocation(Control.MousePosition.X - this.MValX, Control.MousePosition.Y - this.MValY);
+        }
+
+        private void panel1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.TogMove = 0;
         }
     }
 }
