@@ -32,6 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>d26c2fddc3bdaf3a2fbd047c4fe4ec87.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApp2.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -82,6 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\d26c2fddc3bdaf3a2fbd047c4fe4ec87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="d26c2fddc3bdaf3a2fbd047c4fe4ec87.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\jeffd\\source\\repos\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WindowsFormsApp2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\jeffd\\source\\repos\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\jeffd\\source\\repos\\windowsformsapp2\\windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF189F02-35CD-4722-87BB-1594567E2478}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\jeffd\\source\\repos\\windowsformsapp2\\windowsformsapp2\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +28,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",
               "ToolTip": "C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs*",
               "RelativeToolTip": "WindowsFormsApp2\\Form1.cs*",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAhwOQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAASwOQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T17:16:36.667Z",
               "IsPinned": true,
@@ -40,7 +46,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "WindowsFormsApp2",
+              "DocumentMoniker": "C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2.csproj",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\WindowsFormsApp2.csproj",
+              "ToolTip": "C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2.csproj*",
+              "RelativeToolTip": "WindowsFormsApp2\\WindowsFormsApp2.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-03T19:57:33.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jeffd\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Program.cs",
