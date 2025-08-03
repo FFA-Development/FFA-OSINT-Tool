@@ -86,6 +86,11 @@ namespace WindowsFormsApp2
             }
         }
 
+        private void tcp_ping()
+        {
+
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == string.Empty)
